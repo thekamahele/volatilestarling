@@ -3,12 +3,4 @@ angular.module('where-to.attr', [])
     
     $scope.attractionsList = Detail.attractions;
 
-    //called when tab is clicked
-    // $scope.getList = function() {
-    //   Detail.locationDetails()
-    //     .then(function(data) {
-    //       $scope.attractionsList = data
-    //     });
-    // };
-
   }]);
